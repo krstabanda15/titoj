@@ -251,6 +251,59 @@
     </div>
   </section>
 
+  <section id="crew" class="py-5 bg-light text-center">
+  <!-- AOS Animation Library CSS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <style>
+    #crew img {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    #crew img:hover {
+      transform: scale(1.03);
+      box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+    #crew h2 {
+      color: #333;
+    }
+    #crew p {
+      color: #555;
+    }
+  </style>
+
+  <div class="container" data-aos="fade-up" data-aos-duration="1000">
+    <h2 class="fw-bold mb-4">🔥 Meet the Heart Behind the Sizzle</h2>
+    <p class="text-muted mb-5">
+      Behind every crispy <strong>Bellychon</strong> and sizzling <strong>Sisig</strong> is a team that cooks with heart.  
+      Our crew at <strong>TITO J BELLYCHON AND SIZZLING SISIG</strong> is more than just staff — they’re family, united by their passion for great food and warm Filipino hospitality.  
+      Each plate they serve is prepared with laughter, teamwork, and love — the true taste of home. ❤️
+    </p>
+
+    <div class="row g-4 justify-content-center" data-aos="fade-up" data-aos-delay="200">
+      <!-- Group Photo 1 -->
+      <div class="col-md-6 col-lg-4">
+        <img src="crew1.jpg" alt="Crew Photo 1" class="img-fluid rounded shadow-sm">
+      </div>
+
+      <!-- Group Photo 2 -->
+      <div class="col-md-6 col-lg-4">
+        <img src="crew3.jpg" alt="Crew Photo 2" class="img-fluid rounded shadow-sm">
+      </div>
+
+      <!-- Group Photo 3 -->
+      <div class="col-md-6 col-lg-4">
+        <img src="crew2.jpg" alt="Crew Photo 3" class="img-fluid rounded shadow-sm">
+      </div>
+    </div>
+  </div>
+
+  <!-- AOS Animation Script -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</section>
+
   <!-- Contact -->
   <section class="py-5" id="contact">
     <div class="container text-center">
@@ -294,6 +347,3 @@
   </script>
 </body>
 </html>
-
-
-
