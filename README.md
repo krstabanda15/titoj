@@ -1,1 +1,297 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>TITO J BELLYCHON AND SIZZLING SISIG</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <style>
+    :root {
+      --accent: #f59e0b;
+      --dark: #111;
+      --light: #fff;
+    }
+    body {
+      font-family: "Poppins", system-ui, sans-serif;
+      background-color: #fffaf5;
+      color: var(--dark);
+    }
+    .navbar {
+      background: #111;
+    }
+    .navbar-brand {
+      color: var(--accent) !important;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+    }
+    .hero {
+      position: relative;
+      background: url("menu.jpg") center/cover no-repeat;
+      min-height: 80vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #fff;
+      text-align: center;
+    }
+    .hero-overlay {
+      position: absolute;
+      inset: 0;
+      background: rgba(0, 0, 0, 0.55);
+    }
+    .hero-content {
+      position: relative;
+      z-index: 2;
+      max-width: 750px;
+      padding: 2rem;
+    }
+    .hero h1 {
+      font-size: 2.5rem;
+      font-weight: 800;
+      color: var(--accent);
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+    }
+    .section-title {
+      text-align: center;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 1rem;
+      text-transform: uppercase;
+    }
+    .about {
+      background: #fff;
+      padding: 4rem 1rem;
+    }
+    .about p {
+      font-size: 1.1rem;
+      line-height: 1.7;
+    }
+    .features {
+      background: var(--accent);
+      color: #fff;
+      padding: 3rem 1rem;
+    }
+    .feature-icon {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }
+    .menu-section {
+      background: #fff;
+      padding: 4rem 1rem;
+    }
+    .menu-filter button {
+      margin: 0.25rem;
+    }
+    .menu-card img {
+      height: 180px;
+      object-fit: cover;
+      border-radius: 10px 10px 0 0;
+    }
+    footer {
+      background: #111;
+      color: #bbb;
+      padding: 2rem 0;
+      text-align: center;
+      font-size: 0.9rem;
+    }
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">Tito J BellyChon</a>
+      <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navmenu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link text-light" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#menu">Menu</a></li>
+          <li class="nav-item"><a class="nav-link text-light" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <header class="hero" id="home">
+    <div class="hero-overlay"></div>
+    <div class="hero-content text-center">
+      <h1>TITO J BELLYCHON AND SIZZLING SISIG</h1>
+      <p class="lead mt-3">
+        There’s nothing quite like the comfort of <em>lutong bahay</em> — the aroma of BellyChon and Sizzling Sisig simmering with laughter and good company.
+      </p>
+      <a href="#about" class="btn btn-warning mt-3 fw-bold">Discover More</a>
+    </div>
+  </header>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <h2 class="section-title">Welcome to Tito J's</h2>
+      <div class="row align-items-center">
+        <div class="col-md-6 mb-4 mb-md-0">
+          <img src="menu.jpg" alt="Tito J BellyChon" class="img-fluid rounded shadow">
+        </div>
+        <div class="col-md-6">
+  <p>
+    We’re excited to welcome you to <strong>TITO J BELLYCHON AND SIZZLING SISIG</strong> — your new home of Filipino flavors!  
+    Bring your appetite, your stories, and your barkada, because here, every meal feels like family.  
+  </p>
+  <p>
+    At <strong>Tito J’s</strong>, we serve authentic <em>lutong bahay</em> dishes made with love and tradition — from our crispy, juicy <strong>BellyChon</strong> to our flavorful <strong>Sizzling Sisig</strong> that sizzles with every bite.  
+    Whether you’re celebrating a special moment, catching up with friends, or just craving that warm Filipino comfort food, you’ll always find a place at our table.  
+  </p>
+  <p>
+    Pair your meal with refreshing drinks or local cold beers, and enjoy the cozy, welcoming vibe that makes you feel right at home.  
+    Because at <strong>Tito J’s</strong>, every bite is a taste of family, laughter, and togetherness.  
+  </p>
+  <p class="fw-semibold mt-3 mb-1">📍 Location:</p>
+  <p>Juan Luna Street, Brgy Zone 4, Behind PNB Bank, Cadiz City</p>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="features text-center" id="features">
+    <div class="container">
+      <h2 class="section-title text-light">What We Offer</h2>
+      <div class="row gy-4">
+        <div class="col-md-3">
+          <div class="feature-icon">🔥</div>
+          <h5 class="fw-bold">Signature BellyChon & Sizzling Favorites</h5>
+        </div>
+        <div class="col-md-3">
+          <div class="feature-icon">🍽️</div>
+          <h5 class="fw-bold">Good Food, Great Service</h5>
+        </div>
+        <div class="col-md-3">
+          <div class="feature-icon">🍻</div>
+          <h5 class="fw-bold">Local Beers & Premium Spirits</h5>
+        </div>
+        <div class="col-md-3">
+          <div class="feature-icon">🇵🇭</div>
+          <h5 class="fw-bold">Traditional Filipino Dishes</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Menu -->
+  <section class="menu-section" id="menu">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+
+      <!-- Filter Buttons -->
+      <div class="text-center menu-filter mb-4">
+        <button class="btn btn-outline-warning active" data-filter="all">All</button>
+        <button class="btn btn-outline-warning" data-filter="bellychon">BellyChon</button>
+        <button class="btn btn-outline-warning" data-filter="sisig">Sisig</button>
+        <button class="btn btn-outline-warning" data-filter="drinks">Drinks</button>
+        <button class="btn btn-outline-warning" data-filter="veggies">Veggies</button>
+      </div>
+
+      <!-- Menu Items -->
+      <div class="row g-4" id="menuContainer">
+        <div class="col-md-3 menu-item bellychon">
+          <div class="card menu-card h-100 shadow-sm">
+            <img src="bellychon.jpg" class="card-img-top" alt="BellyChon">
+            <div class="card-body">
+              <h5 class="card-title">Classic BellyChon</h5>
+              <p class="card-text">Crispy, juicy pork belly slow-roasted to perfection.</p>
+              <p class="fw-bold text-warning"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 menu-item sisig">
+          <div class="card menu-card h-100 shadow-sm">
+            <img src="sisig.jpg" class="card-img-top" alt="Sisig">
+            <div class="card-body">
+              <h5 class="card-title">Sizzling Sisig</h5>
+              <p class="card-text">Pork, egg, and mayo sizzled to creamy perfection.</p>
+              <p class="fw-bold text-warning"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 menu-item veggies">
+          <div class="card menu-card h-100 shadow-sm">
+            <img src="veggies.jpg" class="card-img-top" alt="Pinakbet">
+            <div class="card-body">
+              <h5 class="card-title">Pinakbet with Lechon</h5>
+              <p class="card-text">Healthy vegetables topped with savory lechon bits.</p>
+              <p class="fw-bold text-warning"></p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3 menu-item drinks">
+          <div class="card menu-card h-100 shadow-sm">
+            <img src="drinks.jpg" class="card-img-top" alt="Drinks">
+            <div class="card-body">
+              <h5 class="card-title">Fresh Fruit Shake</h5>
+              <p class="card-text">Refreshing banana, mango, or buko shakes.</p>
+              <p class="fw-bold text-warning"></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="py-5" id="contact">
+    <div class="container text-center">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="mb-4">Follow us or message us for orders and inquiries.</p>
+      <a href="https://www.facebook.com/profile.php?id=61581406020202" class="btn btn-outline-dark btn-lg" target="_blank">Visit Facebook Page</a>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="py-4 mt-5 bg-dark text-white text-center">
+  <div class="container">
+    <p class="mb-1">© 2025 TITO J BELLYCHON AND SIZZLING SISIG. All rights reserved.</p>
+    <p class="small mb-0">Developed by <strong>KRST</strong></p>
+  </div>
+</footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Menu Filter JS -->
+  <script>
+    const filterButtons = document.querySelectorAll('.menu-filter button');
+    const menuItems = document.querySelectorAll('.menu-item');
+
+    filterButtons.forEach(btn => {
+      btn.addEventListener('click', () => {
+        const filter = btn.dataset.filter;
+        filterButtons.forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+
+        menuItems.forEach(item => {
+          if (filter === 'all' || item.classList.contains(filter)) {
+            item.style.display = 'block';
+          } else {
+            item.style.display = 'none';
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
 
